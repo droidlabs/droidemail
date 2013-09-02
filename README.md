@@ -16,7 +16,7 @@ Yep, they won't work. Don't even waste your time on that.
 
 Gmail and couple other web-services would like to have a Strict DOCTYPE. If other is specified - it will be replaced.
 
-#### CSS in <head>
+#### CSS in head tag
 
 Please keep the header more than 1023 symbols. Otherwise the email will be cut on the iOS devices in the default Apple's Mail app.
 
@@ -28,7 +28,7 @@ Just keep it for Yahoo!Mail. Don't forget to specify the selectors like that for
 
 Sometimes it's very nice to have borders on the email, especially if you're viewing it on mobile. Try to keep them if that won't make your design terrible.
 
-#### Use <div class="preheader"></div>
+#### Use preheader block
 
 For email previews on the most of the desktop and mobile clients it's very handy to have important text of the email, rather links to your social networks. Put the body text of the email in that block.
 
